@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0e0e45;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background: #c6bde6;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #040211;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #143a69;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 50px 50px;
+}
+.h2-class {
+  color: #18031f;
+}
+.score {
+  font-weight: bold;
+}
+button:hover {
+  background-color: #0c7011;
+  color: #d4d4e0;
+}
+
+button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+.button-in-game {
+  padding: 10px 15px;
+  background-color: #060d3f;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 50px 50px;
+}
+.button-in-game:hover {
+  background-color: #3b793e;
+  color: #d4d4e0;
+}
+.button-in-game:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+.button-in-game {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+p {
+  font-size: 16px;
+  color: #333;
+}
+
+.QRCode {
+  margin: 20px auto;
+  border: 5px solid #f4f4f9;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.list-container {
+  padding: 0px;
+  background-color: #0f033f;
+  border-radius: 5px;
+  color: #c6bde6;
+}
+
+.list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-container li {
+  padding: 0px;
+  border-bottom: 1px solid #ccc;
+}
